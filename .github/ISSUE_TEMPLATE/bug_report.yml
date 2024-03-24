@@ -25,7 +25,31 @@ body:
       options:
         - High
         - Medium
-        - Low          
+        - Low    
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: "Browsers"
+      description: What browsers are you seeing the problem on ?
+      multiple: true
+      options:
+        - Firefox (Default)
+        - Chrome
+        - Safari
+        - Microsoft Edge
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      description: What is the impacted environment ?
+      options:
+        - Ubuntu 22.04 (Default)
+        - Windows
+        - macOS
+    validations:
+      required: false        
   - type: textarea
     id: description
     attributes:
@@ -74,28 +98,5 @@ body:
       render: bash
     validations:
       required: false
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: "Browsers"
-      description: What browsers are you seeing the problem on ?
-      multiple: true
-      options:
-        - Firefox (Default)
-        - Chrome
-        - Safari
-        - Microsoft Edge
-    validations:
-      required: false
-  - type: dropdown
-    id: os
-    attributes:
-      label: "OS"
-      description: What is the impacted environment ?
-      options:
-        - Ubuntu 22.04 (Default)
-        - Windows
-        - macOS
-    validations:
-      required: false
+
    
