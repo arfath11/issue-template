@@ -49,7 +49,15 @@ body:
         - Windows
         - macOS
     validations:
-      required: false        
+      required: false 
+  - type: textarea
+    id: additionl
+    attributes:
+      label: "Additional Environment Details "
+      description: Any additional Environment Details
+      placeholder:
+    validations:
+      required: false      
   - type: textarea
     id: description
     attributes:
