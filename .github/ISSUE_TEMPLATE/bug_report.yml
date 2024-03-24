@@ -54,8 +54,8 @@ body:
     id: additionl
     attributes:
       label: "Additional Environment Details "
-      description: Any additional Environment Details
-      placeholder:
+      description: 
+      placeholder: Any additional Environment Details
     validations:
       required: false      
   - type: textarea
