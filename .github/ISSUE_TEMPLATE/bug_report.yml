@@ -99,11 +99,11 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: "Screenshots/Logs"
+      label: "Screenshots/Logs/config.yml"
       description: If applicable, add screenshots to help explain your problem.
       value: |
         ![DESCRIPTION](LINK.png)
     validations:
-      required: false
+      required: True
 
    
